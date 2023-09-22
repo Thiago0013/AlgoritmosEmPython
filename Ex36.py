@@ -9,11 +9,11 @@ ser trocados por dinheiro. O sistema funciona assim:
 calcule e mostre quantos pontos ela teve e quanto dinheiro ela conseguiu ganhar.'''
 horas = int(input('Por quantas hora práticou exercicios: '))
 if horas < 10:
-    pontos = horas * 2
+    pontos = (horas * 30) * 2
 elif 10 <= horas < 20:
-    pontos = horas * 5
+    pontos = (horas * 30) * 5
 else:
-    pontos = horas * 10
+    pontos = (horas * 30) * 10
 
 dinheiro = 0.05 * pontos
 print(f'Você ganhou {pontos} pontos por mês e faturou R${dinheiro:.2f}.')
