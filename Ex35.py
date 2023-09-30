@@ -19,12 +19,12 @@ if carro == 'Popular':
         preço = (dias * 90) + (km * 0.20)
     else:
         preço = (dias * 90) + (km * 0.10)
-    print(f'O carro Popular fica com alguel de: R${preço}')
+    print(f'O carro Popular fica com alguel de: R${preço:.2f}')
 elif carro == 'Luxo':
     if km <= 200:
         preço = (dias * 150) + (km * 0.30)
     else:
         preço = (dias * 150) + (km * 0.25)
-    print(f'O carro de Luxo fica com alguel de: R${preço}')
+    print(f'O carro de Luxo fica com alguel de: R${preço:.2f}')
 else:
     print(f'ERRO! Escolha de carro incorreta')
